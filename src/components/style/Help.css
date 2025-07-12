@@ -1,0 +1,31 @@
+.demo {
+  align-items: center;
+
+  padding: 50px 250px;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.section{
+  
+  gap: 20px;
+  align-items: center;
+  margin-top: 20px;
+  gap: 20px;
+}
+
+.section h4{
+  font-size: 24px;
+  color: #000000;
+  font-weight: 500;
+}
+.section h1 {
+  font-size: 30px;
+  color: #000000;
+  font-weight: 600;
+}

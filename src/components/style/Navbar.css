@@ -1,0 +1,83 @@
+
+.navBar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #ffffff;
+  gap: 50px;
+  width: 100vw; /* Use viewport width, not height */
+  font-family: "Poppins", "Segoe UI", "Helvetica Neue", sans-serif;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  width: 200px;
+  height: 80px;
+  cursor: pointer;
+}
+
+.logo img {
+  height: 100%;
+  width: auto;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.menu ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 50px;
+}
+.menu ul li {
+  margin: 0 15px;
+  font-size: 16px;
+  color: #1e1e1e;
+  cursor: pointer;
+  transition: color 0.3s ease;
+  font-weight: 500;
+}
+
+.menu ul li::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #007bff;
+  transition: width 0.3s ease;
+ 
+}
+.menu ul li:hover::after {
+  width: 100%;
+}
+
+.btn button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 16px;
+  font-weight: 500;
+}
+.btn button:hover {
+  background-color: #0056b3;
+}
+/* ---------------------hero section--------------------- */
+
+
+/* ------------------------------------------hero section end------------------------------------------ */
+
+/* ------------------------------Demo Section------------------------------ */
