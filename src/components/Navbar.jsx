@@ -12,9 +12,12 @@ function Navbar() {
     function goToHonme() {
         navigate("/");   
     }
-    // function goToDoctor() {
-    //     navigate("/chat");   
-    // }
+    function goToDoctor() {
+        navigate("/doctor");   
+    }
+    function goToHelp() {
+        navigate("/help");   
+    }
   return (
     <div>
       {/* ------------------------------NavBar ------------------------------ */}
@@ -26,8 +29,8 @@ function Navbar() {
         <div className="menu">
           <ul>
             <li onClick={goToHonme}>Home</li>
-            <li>How it works</li>
-            <li>Doctor</li>
+            <li onClick={goToHelp}>How it works</li>
+            <li onClick={goToDoctor}>Doctor</li>
           </ul>
         </div>
 
