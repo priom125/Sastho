@@ -26,8 +26,10 @@ function Chats() {
             </div>
              <div className="chatInput">
             <input type="text" placeholder='Type your message here...' />
+            {/* <input type="file" id='submit' placeholder='Upload Report'/> */}
             <button>Send</button>
-            <button>Upload Report</button>
+          
+            {/* <button>Upload Report</button> */}
         </div>
         </div>
        
