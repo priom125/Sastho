@@ -6,8 +6,10 @@
   padding: 10px 20px;
   background-color: #ffffff;
   gap: 50px;
+  margin-top: 15px;
   width: 100vw; /* Use viewport width, not height */
   font-family: "Poppins", "Segoe UI", "Helvetica Neue", sans-serif;
+  margin: 0;
 }
 
 .logo {
@@ -20,7 +22,10 @@
 
 .logo img {
   height: 100%;
-  width: auto;
+  width: 200px;
+  height: 80px;
+  object-fit: cover;
+
 }
 
 .menu {
@@ -75,9 +80,3 @@
 .btn button:hover {
   background-color: #0056b3;
 }
-/* ---------------------hero section--------------------- */
-
-
-/* ------------------------------------------hero section end------------------------------------------ */
-
-/* ------------------------------Demo Section------------------------------ */
