@@ -72,6 +72,7 @@ body {
   background-color: #F1F1F1;
   color: #007bff;
   align-self: flex-end;
+  margin-left: 420px;
 }
 .chatbox .message {
   margin-bottom: 15px;
