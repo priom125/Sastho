@@ -1,5 +1,7 @@
 import { useState } from "react";
+
 import Avatar from "../assets/avatar.png";
+
 import "./style/Chats.css";
 
 function Chats() {
@@ -42,9 +44,12 @@ const handleUserSend = async () => {
   setUserInput("");
 
   // Placeholder: call LLM API here or simulate response
-  const botReply = await getLLMResponse(userInput);
-  setMessages(prev => [...prev, { role: "bot", text: botReply, }]);
+
+
+  
 };
+
+
 
   return (
     <div className="chats">
